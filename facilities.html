@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Facilities</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('back5.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #f39c12;  /* Neon yellow */
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #f39c12, 0 0 20px #e74c3c, 0 0 30px #8e44ad;
+            letter-spacing: 2px;
+        }
+
+        .facilities-container {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .facility {
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            position: relative;
+        }
+
+        .facility:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-color: #8e44ad;  /* Neon purple */
+        }
+
+        .facility-icon {
+            font-size: 4em;
+            margin-right: 20px;
+            color: #1abc9c;  /* Neon teal */
+            transition: color 0.3s ease;
+        }
+
+        .facility:hover .facility-icon {
+            color: #3498db;  /* Neon blue */
+        }
+
+        .facility-info {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ecf0f1;  /* Light gray */
+            line-height: 1.5;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .facility-info span {
+            color: #3498db;  /* Neon blue */
+        }
+
+        .facility-info em {
+            color: #8e44ad;  /* Neon purple */
+            font-style: normal;
+        }
+
+        /* Neon glow effect */
+        .facility:hover .facility-info {
+            color: #f39c12;  /* Neon yellow */
+            text-shadow: 0 0 20px #f39c12, 0 0 30px #e74c3c, 0 0 40px #8e44ad;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our College Facilities</h1>
+</header>
+
+<div class="facilities-container">
+    <div class="facility">
+        <div class="facility-icon">📚</div>
+        <div class="facility-info">
+            <span>Library</span>: A vast collection of books, journals, and digital resources for study and research. <em>Open daily!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">💻</div>
+        <div class="facility-info">
+            <span>Computer Lab</span>: Modern computers with high-speed internet for learning, coding, and projects. <em>State-of-the-art equipment!</em>
+        </div>
+    </div>
+
+   
+
+    <div class="facility">
+        <div class="facility-icon">🍴</div>
+        <div class="facility-info">
+            <span>Cafeteria</span>: Serving nutritious meals, snacks, and beverages. Perfect for breaks and socializing. <em>Yummy and healthy!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">🏫</div>
+        <div class="facility-info">
+            <span>Auditorium</span>: A large, modern auditorium for events, seminars, workshops, and performances. <em>Where creativity shines!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">🚗</div>
+        <div class="facility-info">
+            <span>Parking</span>: Ample parking space for students, staff, and visitors. <em>Convenient and secure!</em>
+        </div>
+    </div>
+
+    <!-- New Facilities -->
+    <div class="facility">
+        <div class="facility-icon">⚽</div>
+        <div class="facility-info">
+            <span>Sports</span>: Various sports facilities for cricket, football, basketball, and more. <em>Stay active and fit!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">🚌</div>
+        <div class="facility-info">
+            <span>Bus Service</span>: Convenient transportation for students to and from the campus. <em>Travel safely!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">🏆</div>
+        <div class="facility-info">
+            <span>Competitions</span>: Regular inter-college and intra-college competitions to hone your skills. <em>Show your talent!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">💃</div>
+        <div class="facility-info">
+            <span>Dance Studio</span>: A dedicated space for dance practices and performances. <em>Unleash your rhythm!</em>
+        </div>
+    </div>
+
+    <div class="facility">
+        <div class="facility-icon">✈️</div>
+        <div class="facility-info">
+            <span>College Trips</span>: Educational and recreational trips to enhance learning and exploration. <em>Adventure awaits!</em>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

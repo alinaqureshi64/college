@@ -1,0 +1,168 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+	h2 {
+    color: black; /* Set text color to black */
+    text-align: center; /* Optional: center the heading */
+}
+
+}
+
+/* Header */
+header {
+	
+    background-color: #66ffff;
+    color: black; /* Adjust text color for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #6a5acd; /* Change this color as needed (e.g., Slate Blue) */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff80ab; /* Pink */
+}
+
+/* Marquee Section */
+.marquee {
+    background-color: #ff1aff;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main Sections */
+section {
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 20px;
+    text-align: center;
+    color: #330033;
+}
+
+h2 {
+    color: #6a1b9a; /* Purple */
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #ff80ab; /* Light Pink */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    color: #6a1b9a; /* Purple */
+}
+
+.course p {
+    color: #333;
+}
+
+/* Vidyalaxmi Karyakram Link Section */
+#vidyalaxmi {
+    background-color: #ffff99; /* Light Yellow */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #330033;
+}
+
+#vidyalaxmi h3 {
+    font-size: 24px;
+    color: #ff5733; /* Red */
+}
+
+#vidyalaxmi a {
+    text-decoration: none;
+    color: #0066cc; /* Blue */
+    font-weight: bold;
+}
+
+#vidyalaxmi a:hover {
+    color: #ff5733; /* Red */
+}
+
+/* YouTube Video Embed Section */
+#video {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #6a1b9a; /* Purple */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        width: 80%;
+    }
+
+    #vidyalaxmi, #video {
+        margin: 0 10px;
+    }
+}

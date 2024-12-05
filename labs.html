@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Labs Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .labs-section {
+            background-image: url('back7.jpg'); /* Replace with your background image path */
+            background-size: cover;
+            background-position: center;
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+        }
+        .labs-section h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            color: #ffcc00;
+            text-shadow: 0px 0px 20px #ffcc00;
+        }
+        .lab {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            max-width: 900px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+            animation: glow 3s infinite;
+        }
+        .lab img {
+            width: 200px; /* Increased size */
+            height: 200px; /* Increased size */
+            border-radius: 50%;
+            border: 3px solid #ffcc00;
+            margin-right: 20px;
+            object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */
+        }
+        .lab-info {
+            text-align: left;
+        }
+        .lab-info h3 {
+            font-size: 28px;
+            margin: 0 0 10px;
+            color: #ff5733;
+            text-shadow: 0px 0px 10px #ff5733;
+        }
+        .lab-info p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        @keyframes glow {
+            0%, 100% {
+                box-shadow: 0 0 10px #ffcc00;
+            }
+            50% {
+                box-shadow: 0 0 30px #ffcc00;
+            }
+        }
+        footer {
+            margin-top: 30px;
+            color: #ffcc00;
+            text-shadow: 0px 0px 5px #ffcc00;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="labs-section">
+        <h1>✨ Explore Our Amazing Labs ✨</h1>
+        
+        <!-- Computer Lab -->
+        <div class="lab">
+            <img src="lab.jpg" alt="Computer Lab">
+            <div class="lab-info">
+                <h3>💻 Computer Lab</h3>
+                <p>Equipped with cutting-edge technology and the latest software, our computer lab is a hub for innovation and creativity! From programming to design, students have all the tools they need to bring their ideas to life.</p>
+            </div>
+        </div>
+        
+        <!-- Physics Lab -->
+        <div class="lab">
+            <img src="lab2.jpg" alt="Physics Lab">
+            <div class="lab-info">
+                <h3>🔬 Physics Lab</h3>
+                <p>Delve into the mysteries of the universe and experiment with the laws of physics in our state-of-the-art lab. With a wide range of equipment for hands-on experiments, students explore fundamental concepts in motion, energy, and matter.</p>
+            </div>
+        </div>
+        
+        <!-- Chemistry Lab -->
+        <div class="lab">
+            <img src="lab1.jpg" alt="Chemistry Lab">
+            <div class="lab-info">
+                <h3>⚗️ Chemistry Lab</h3>
+                <p>Unleash your inner scientist with hands-on experiments in our well-equipped and safe chemistry lab. Explore chemical reactions, mixtures, and compounds while learning important lab safety protocols.</p>
+            </div>
+        </div>
+        
+        <!-- Developer Section -->
+        <div class="lab">
+            <img src="lab3.jpg" alt="About Developer">
+            <div class="lab-info">
+                <h3>👨‍💻 About Developer</h3>
+                <p>This interactive and visually stunning section was crafted by a passionate developer skilled in HTML, CSS, and creative design. The aim is to create an engaging and user-friendly experience for all visitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>💡 Bringing Creativity to Life in Every Pixel 💡</footer>
+</body>
+</html>
